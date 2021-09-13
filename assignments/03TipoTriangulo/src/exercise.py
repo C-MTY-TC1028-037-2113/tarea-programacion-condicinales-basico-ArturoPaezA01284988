@@ -6,13 +6,13 @@ def main():
 
     if lado1<(lado2+lado3) and lado2<(lado1+lado3) and lado3<(lado1+lado2):
         if lado1==lado2==lado3:
-            print('Es un Triangulo Equilatero')
+            print("ES UN TRIANGULO EQUILATERO")
         elif lado1==lado2 or lado2==lado3 or lado1==lado3:
-            print('Es un Triangulo Isosceles')
+            print("ES UN TRIANGULO ISOSCELES")
         else:
-            print('Es un Triangulo Escaleno')
+            print("ES UN TRIANGULO ESCALENO")
     else:
-        print('No es Triangulo')
+        print("NO ES TRIANGULO")
 
 
 if __name__=='__main__':

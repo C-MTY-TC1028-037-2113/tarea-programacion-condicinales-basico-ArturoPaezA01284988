@@ -6,18 +6,17 @@ def main():
     indice = peso / altura**2
 
     if peso <= 0 or altura <= 0:
-        print(" Revisa tus datos, alguno de ellos es erróneo.")
+        print("Revisa tus datos, alguno de ellos es erróneo.")
     elif indice < 20:
         print("PESO BAJO")
     elif indice < 25:
-        print('PESO NORMAL')
+        print("NORMAL")
     elif indice < 30:
-        print('SOBREPESO')
+        print("SOBREPESO")
     elif indice < 40:
-        print('OBESIDAD')
-    
+        print("OBESIDAD")
     else:
-      print('OBESIDAD MORBIDA')
+      print("OBESIDAD MORBIDA")
         
 if __name__=='__main__':
     main()

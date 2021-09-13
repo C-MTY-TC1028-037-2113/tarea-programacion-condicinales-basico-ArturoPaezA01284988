@@ -1,7 +1,6 @@
 
 def main():
     edad = int(input("Ingresa tu edad: "))
-    #Aquí empieza tu programa...
     if edad >= 18:
         licencia = str(input("¿Tienes Identificación oficial? (s/n): "))
         if licencia == "s":
