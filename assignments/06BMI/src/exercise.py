@@ -2,25 +2,22 @@ def main():
     #escribe tu código abajo de esta línea
     peso = float(input('Peso en kg: '))
     altura = float(input('Altura en m:'))
-    Indice = peso/ altura**2
-    print("Peso en kg: ", peso)
 
-    if Indice <20:
-        print('PESO BAJO')
+    indice = peso / altura**2
 
-    elif 20 <= Indice < 25:
+    if peso <= 0 or altura <= 0:
+        print(" Revisa tus datos, alguno de ellos es erróneo.")
+    elif indice < 20:
+        print("PESO BAJO")
+    elif indice < 25:
         print('PESO NORMAL')
-    
-    elif 25 <= Indice < 30:
+    elif indice < 30:
         print('SOBREPESO')
-    
-    elif 30 <= Indice < 40:
+    elif indice < 40:
         print('OBESIDAD')
     
-    elif Indice>=40:
-      print('OBESIDAD MORBIDA')
     else:
-        print('Revisa tus datos, alguno de ellos es erróneo. ')
+      print('OBESIDAD MORBIDA')
         
 if __name__=='__main__':
     main()

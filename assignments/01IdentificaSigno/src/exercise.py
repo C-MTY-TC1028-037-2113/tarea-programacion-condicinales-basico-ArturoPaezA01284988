@@ -2,9 +2,9 @@
 def main():
     #describe tu código abajo de esta línea
     numero = int(input("Dame un número: "))
-    if (1<=numero):
+    if (numero > 0):
         print("Es positivo")
-    elif (-1>=numero):
+    elif (numero < 0):
         print("Es negativo")
     else:
         print("Es cero")
