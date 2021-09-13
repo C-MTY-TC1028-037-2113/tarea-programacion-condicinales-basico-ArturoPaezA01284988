@@ -1,4 +1,5 @@
 
+
 def main():
     edad = int(input("Ingresa tu edad: "))
     if edad >= 18:
@@ -14,5 +15,5 @@ def main():
     else:
         print("Respuesta incorrecta")
     
-if __name__ == '__main__':
+    
     main()
